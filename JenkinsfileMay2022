@@ -10,7 +10,7 @@ node
     
     stage('CheckoutCode')
     {
-        git branch: 'development', credentialsId: '268a20bf-7452-44a0-82fd-0ac81f58c01c', url: 'https://github.com/My-Learning-Project-Organization/maven-web-application.git'
+        git branch: 'development', credentialsId: '268a20bf-7452-44a0-82fd-0ac81f58c01c', url: 'https://github.com/My-Learning-Project-Organization/my-web-app.git'
     }
     
     stage('Build')
