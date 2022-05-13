@@ -16,7 +16,7 @@ pipeline {
         //pollSCM('* * * * *')
         //Build Periodically
         //cron('* * * * *')
-        //GitHub WebHook
+        GitHub WebHook
         //githubPush()
     }
 
